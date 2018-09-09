@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Wisdom Script AI";
+    src: url("../fonts/Wisdom Script AI/Wisdom Script AI.woff");
+    src: url("../fonts/Wisdom Script AI/Wisdom Script AI.woff2");
+}
+
+@font-face {font-family: "Roboto Slab";
+    src: url("../fonts/Roboto Slab Bold/Roboto Slab Bold.woff");
+    src: url("../fonts/Roboto Slab Bold/Roboto Slab Bold.woff2");
+}
+
+@font-face {font-family: "Roboto Slab";
+    src: url("../fonts/Roboto Slab Thin/Roboto Slab Thin.woff");
+    src: url("../fonts/Roboto Slab Thin/Roboto Slab Thin.woff2");
+}
+
+@font-face {font-family: "Droid Serif";
+    src: url("../fonts/Droid Serif V1/Droid Serif V1.woff");
+    src: url("../fonts/Droid Serif V1/Droid Serif V1.woff2");
+}
+
+@font-face {font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Regular/Montserrat-Regular.woff");
+    src: url("../fonts/Montserrat-Regular/Montserrat-Regular.woff2");
+}
+
+@font-face {font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Bold/Montserrat-Bold.woff");
+    src: url("../fonts/Montserrat-Bold/Montserrat-Bold.woff2");
+}

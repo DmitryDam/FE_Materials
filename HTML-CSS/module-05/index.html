@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Module-05</title>
+    <link href="https://fonts.googleapis.com/css?family=Dorsa" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrap">
+        <header class="header">
+            <nav class="navigation">
+                <ul class="navigation">
+                    <li class="navigation-itaem">
+                        <a href="#">HOME</a>
+                    </li>
+                    <li class="navigation-itaem">
+                        <a href="#">ABOUT</a>
+                        <ul class="subnavigation">
+                            <li class="subnavigation-itaem">
+                                <a href="#">Agency</a>
+                            </li>
+                            <li class="subnavigation-itaem">
+                                <a href="#">News</a>
+                            </li>
+                            <li class="subnavigation-itaem">
+                                <a href="#">Team</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navigation-itaem">
+                        <a href="#">Gallery</a>
+                    </li>
+                    <li class="navigation-itaem">
+                        <a href="#">Tours</a>
+                    </li>
+                    <li class="navigation-itaem">
+                        <a href="#">Blog</a>
+                    </li>
+                    <li class="navigation-itaem">
+                        <a href="#">Contacts</a>
+                    </li>
+                </ul>
+                <div class="logo">
+                    <a href="#">Journey</a>
+                    <div class="box-1"></div>
+                    <div class="box-2"></div>
+                    <div class="box-3"></div>
+                </div>
+            </nav>
+        </header>
+
+        <div class="inner">
+            <section class="slider">
+                <div class="slider-carousel">
+                    <div class="slider-carousel-images">
+                        <img src="img/s-01.png" alt="photo shore of the sea">
+                    </div>
+                    <div class="slider-carousel-images">
+                        <img src="img/s-01.png" alt="photo shore of the sea">
+                    </div>
+                    <div class="slider-carousel-images">
+                        <img src="img/s-01.png" alt="photo shore of the sea">
+                    </div>
+                </div>
+                <span class="slogan-1">THERE ARE PLENTY OF PLACES</span>
+                <span class="slogan-2">that are worth seeing</span>
+            </section>
+
+            <section class="destinations">
+                <h2 class="title-destinations">Top destinations</h2>
+                <div class="destinations-cards">
+                    <img src="img/v-01.png" alt="venice">
+                    <div class="deteils-cards">
+                        <h3 class="deteils-title">venice</h3>
+                        <p class="deteils-text">Lorem ipsum dolor site geril amet, consectetur cing eliti. Suspendisse nulla leo mew dignissim eu
+                            velite a rew qw vehicula lacinia arcufasecro. Aenean lacinia ucibusy fase tortor ut feugiat.
+                            Rabitur oliti aliquam bibendum olor quis malesuadivamu.</p>
+                        <a href="#" class="details-botton">Details</a>
+                    </div>
+                </div>
+
+                <div class="destinations-cards">
+                    <img src="img/n-02.png" alt="new-york">
+                    <div class="deteils-cards">
+                        <h3 class="deteils-title">new-york</h3>
+                        <p class="deteils-text">Lorem ipsum dolor site geril amet, consectetur cing eliti. Suspendisse nulla leo mew dignissim eu
+                            velite a rew qw vehicula lacinia arcufasecro. Aenean lacinia ucibusy fase tortor ut feugiat.
+                            Rabitur oliti aliquam bibendum olor quis malesuadivamu.</p>
+                        <a href="#" class="details-botton">Details</a>
+                    </div>
+                </div>
+
+                <div class="destinations-cards">
+                    <img src="img/p-03.png" alt="parise">
+                    <div class="deteils-cards">
+                        <h3 class="deteils-title">parise</h3>
+                        <p class="deteils-text">Lorem ipsum dolor site geril amet, consectetur cing eliti. Suspendisse nulla leo mew dignissim eu
+                            velite a rew qw vehicula lacinia arcufasecro. Aenean lacinia ucibusy fase tortor ut feugiat.
+                            Rabitur oliti aliquam bibendum olor quis malesuadivamu.</p>
+                        <a href="#" class="details-botton">Details</a>
+                    </div>
+                </div>
+            </section>
+            <div class="top-bottom">
+                <a href="#"></a>
+            </div>
+        </div>
+    </div>
+
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.slider-carousel').slick({
+                autoplay: true,
+                autoplaySpeed: 2000,
+                nextArrow: '<button class="slick-prev"></button>',
+                prevArrow: '<button class="slick-next"></button>',
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>

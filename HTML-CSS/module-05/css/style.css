@@ -1,0 +1,376 @@
+body {
+  background-image: url(../img/bc-main.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  color: #263555;
+  font-family: "Pathway Gothic One", Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-top: 102px;
+  padding-bottom: 102px;
+}
+
+.wrap {
+  width: 1024px;
+  margin: auto;
+}
+
+/*main-menu*/
+.header {
+  margin-bottom: 100px;
+}
+
+nav {
+  position: relative;
+}
+
+.navigation {
+  width: 827px;
+  margin: auto;
+}
+
+.navigation-itaem {
+  display: inline-block;
+  margin-right: 52px;
+  position: relative;
+}
+
+.navigation-itaem:nth-child(3) {
+  margin-right: 245px;
+}
+
+.navigation-itaem:last-child {
+  margin-right: 0;
+}
+
+.navigation-itaem:nth-child(2) {
+  padding-bottom: 5px;
+}
+
+.navigation-itaem > a {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navigation-itaem a:hover {
+  color: #263555;
+}
+
+.subnavigation {
+  display: none;
+  background-color: #ffffff;
+  width: 66px;
+  border-radius: 5px;
+  padding: 10px;
+  color: #263555;
+  border: 1px solid #dfdcdc;
+  position: absolute;
+  left: -6px;
+  top: 32px;
+}
+
+.subnavigation::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: #ffffff;
+  width: 10px;
+  height: 10px;
+  transform: rotate(45deg) translate(-5px, 29%);
+  border-top: 1px solid #dfdcdc;
+  border-left: 1px solid #dfdcdc;
+  top: -4px;
+  left: 50%;
+}
+
+.subnavigation-itaem {
+  margin-bottom: 5px;
+}
+
+.subnavigation-itaem:last-child {
+  margin-bottom: 0;
+}
+
+.subnavigation-itaem > a {
+  color: #263555;
+  display: block;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+  text-align: center;
+}
+
+.subnavigation-itaem > a:hover {
+  color: #38afe5;
+}
+
+.navigation-itaem:hover > .subnavigation {
+  display: block;
+}
+
+/*Logo*/
+
+.logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.logo a {
+  text-decoration: none;
+  display: block;
+  width: 142px;
+  height: 142px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  color: #263555;
+  font-size: 60px;
+  font-family: "Dorsa";
+  margin: auto;
+  line-height: 142px;
+  text-align: center;
+}
+
+.logo:hover > a {
+  background-color: #fc9020;
+  color: #fc9020;
+  box-shadow: 3px 3px 100px 5px #ffffff;
+}
+
+/*logo:hover smile*/
+.box-1,
+.box-2 {
+  display: none;
+  background-color: #ffffff;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.box-1 {
+  top: 40%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+}
+
+.box-2 {
+  top: 40%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+}
+
+.box-3 {
+  display: none;
+  width: 60px;
+  height: 40px;
+  border-bottom: 4px solid #ffffff;
+  border-radius: 50% 50%;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.logo:hover > .box-1 {
+  display: block;
+}
+
+.logo:hover > .box-2 {
+  display: block;
+}
+
+.logo:hover > .box-3 {
+  display: block;
+}
+
+/*inner*/
+
+.inner {
+  background-color: #ffffff;
+  padding: 58px 61px;
+}
+
+/*slider-main*/
+.slider {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.slider-carousel {
+  width: 902px;
+  height: 579px;
+  margin: auto;
+}
+
+.slider-carousel-images img {
+  object-fit: cover;
+}
+
+/*arrow on slider*/
+
+.slick-prev,
+.slick-next {
+  position: absolute;
+  border: 0;
+  width: 45px;
+  height: 90px;
+  background-color: #38afe5;
+  color: #ffffff;
+  font-size: 20px;
+  outline: none;
+}
+
+.slick-prev:hover {
+  background: hsla(0, 50%, 0%, 0.4);
+}
+
+.slick-next:hover {
+  background: hsla(0, 50%, 0%, 0.4);
+}
+
+.slick-prev {
+  left: 37px;
+  bottom: 39px;
+  border-radius: 100% 0 0 100% / 50% 0 0 50%;
+}
+
+.slick-next {
+  z-index: 5;
+  left: 82px;
+  bottom: 39px;
+  border-radius: 0 100% 100% 0 / 0 50% 50% 0;
+}
+
+.slick-prev::before {
+  content: "\25C0";
+}
+
+.slick-next::after {
+  content: "\25B6";
+}
+
+/*slogan*/
+
+.slogan-1 {
+  display: block;
+  width: 225px;
+  font-size: 22px;
+  background-color: #ffffff;
+  padding: 20px 16px;
+  position: absolute;
+  top: 218px;
+  border: 1px solid #ececea;
+}
+
+.slogan-2 {
+  display: block;
+  width: 276px;
+  font-size: 34px;
+  color: #ffffff;
+  background-color: #38afe5;
+  padding: 17px 12px 17px 15px;
+  position: absolute;
+  top: 278px;
+}
+
+/*title-destinations*/
+.title-destinations {
+  font-size: 30px;
+  margin-bottom: 48px;
+}
+
+/*destinations-cards*/
+
+.destinations-cards {
+  display: inline-block;
+  width: 288px;
+  margin-right: 14px;
+  position: relative;
+  height: 270px;
+}
+
+.destinations-cards:last-child {
+  margin-right: 0;
+}
+
+.destinations-cards img {
+  border: 1px solid #ececea;
+  object-fit: cover;
+  height: 270px;
+}
+
+.deteils-cards {
+  display: none;
+  width: 147px;
+  height: 268px;
+  padding: 21px 10px 19px 8px;
+  background-color: #193149;
+  position: absolute;
+  top: 1px;
+}
+
+.destinations-cards:hover > .deteils-cards {
+  display: block;
+}
+
+.deteils-title {
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 23px;
+}
+
+.deteils-text {
+  color: #cbc6c6;
+  font-family: "Arial MT";
+  font-size: 10px;
+  line-height: 15.21px;
+  text-transform: none;
+  margin-bottom: 9px;
+  text-align: justify;
+}
+
+.details-botton {
+  border-radius: 5px;
+  border: 2px solid #ececea;
+  background: #ffffff;
+  color: #000000;
+  line-height: 18.25px;
+  font-size: 12px;
+  font-family: "Arial MT";
+  text-transform: none;
+  padding: 0 10px;
+  text-align: center;
+  display: inline-block;
+  margin-left: 55%;
+  text-decoration: none;
+}
+
+.details-botton:hover {
+  background-color: #fc9020;
+  color: #ffffff;
+}
+
+/*top-bottom*/
+
+.top-bottom a::before {
+  content: "\25B2";
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+  color: #ffffff;
+  background: #38afe5;
+  border-radius: 50%;
+  line-height: 30px;
+  text-align: center;
+  position: fixed;
+  bottom: 19%;
+  right: 10%;
+  z-index: 10;
+}

@@ -1,0 +1,11 @@
+:root {
+  --subtitle: "Droid Serif", monospace, sans-serif;
+  --main-fonts: "Montserrat", sans-serif;
+  --text-fonts: "Roboto Slab", serif, sans-serif;
+  --logo-fonts: "Wisdom Script AI", cursive, sans-serif;
+  --yellow-color: #fed136;
+  --white-color: #ffffff;
+  --black-color: #222222;
+  --grey-color: #777777;
+  --lightgrey-color: #bbbbbb;
+}

@@ -1,0 +1,16 @@
+@media (min-width: 58.75rem) {
+  .list {
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: space-between;
+    max-width: none;
+  }
+
+  .iteam {
+    flex-basis: 21.2253%;
+  }
+
+  .iteam:not(:last-child) {
+    margin-bottom: 0;
+  }
+}

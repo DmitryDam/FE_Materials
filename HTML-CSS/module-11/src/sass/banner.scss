@@ -1,0 +1,27 @@
+.banner {
+  min-width: 541px;
+  max-width: 802px;
+  @include center(auto, auto, center);
+
+  &__motto {
+    display: block;
+    color: $white;
+    @include font($kaushan-script, 72px, 400, normal);
+    text-transform: capitalize;
+  }
+
+  &__title {
+    max-width: 802px;
+    letter-spacing: -7px;
+    color: $white;
+    @include font($serif, 150px, 700, 140px);
+    text-transform: uppercase;
+    margin-top: 35px;
+    margin-bottom: 109px;
+  }
+}
+
+.masthead__banner {
+  margin-top: 154px;
+  @include center(auto, auto, center);
+}

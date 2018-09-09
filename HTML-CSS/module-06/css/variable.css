@@ -1,0 +1,13 @@
+:root {
+    --main-text-selection-color: #263555;
+    --text-selection-color: #ffffff;
+    --color-text: #4e5050; 
+    --title-size: 32px;
+    --text-selection-size: 15px;
+    --text-size: 13px;
+    --title-font-stack: "Pathway Gothic One", sans-sarif;
+    --text-font-stack: Arial, sans-sarif;
+    --text-selection-transform: uppercase;
+    --main-background: #ffffff;
+    --DeepSkyBlue: #38afe5;   
+}

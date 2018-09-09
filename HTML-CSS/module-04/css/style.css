@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  background-image: url(../img/bk.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #4e5050;
+}
+
+p {
+  line-height: 19px;
+}
+
+.wrapper {
+  margin: auto;
+  width: 1030px;
+  background-color: #ffffff;
+  padding: 110px 60px 85px 60px;
+}
+
+h2 {
+  text-transform: uppercase;
+  color: #263555;
+  font-size: 32px;
+  font-family: "Pathway Gothic One";
+  font-weight: normal;
+}
+
+.profile-title,
+.principles-title,
+.offer-title {
+  margin-bottom: 40px;
+}
+
+.profile-img {
+  width: 60%;
+  float: left;
+  margin-right: 25px;
+  margin-bottom: 10px;
+}
+
+.profile-subtitle,
+.offer-subtitle {
+  color: #263555;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+}
+
+.first-block {
+  border-bottom: 1px solid #4e5050;
+  padding-bottom: 35px;
+  margin-bottom: 55px;
+}
+
+.profile {
+  display: inline-block;
+  width: 70%;
+  vertical-align: top;
+  margin-right: 20px;
+  padding-right: 30px;
+}
+
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.principles {
+  display: inline-block;
+  width: 27%;
+  vertical-align: top;
+  margin-left: -4px;
+}
+
+.principles-list {
+  counter-reset: list;
+}
+
+.principles-list li {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+.principles-list li:last-child {
+  margin-bottom: 0px;
+}
+
+.principles-list li::before {
+  counter-increment: list;
+  content: counter(list) " ";
+  background: #38afe5;
+  height: 1.8em;
+  width: 1.8em;
+  border-radius: 50px;
+  color: #ffffff;
+  position: absolute;
+  text-align: center;
+  line-height: 1.8em;
+}
+
+h3.principles-list-title {
+  font-weight: 400;
+  color: #263555;
+  margin-bottom: 10px;
+  position: relative;
+  left: 15%;
+  width: 85%;
+  display: inline-block;
+}
+
+p.principles-list-text {
+  position: relative;
+  left: 15%;
+  display: inline-block;
+  width: 85%;
+}
+
+.offer {
+  display: inline-block;
+  width: 70%;
+  vertical-align: top;
+  margin-right: 20px;
+  padding-right: 30px;
+}
+
+.testimonial {
+  display: inline-block;
+  width: 27%;
+  vertical-align: top;
+  margin-left: -4px;
+}
+
+.offer-text {
+  margin-bottom: 30px;
+}
+
+ul.list {
+  column-width: 200px;
+  column-gap: 50px;
+}
+
+li.list-element {
+  list-style: none;
+  margin-bottom: 25px;
+  position: relative;
+  left: 15%;
+}
+
+li.list-element:last-child {
+  margin-bottom: 0;
+}
+
+li.list-element a {
+  text-decoration: none;
+  color: #263555;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+}
+
+li.list-element a:hover {
+  text-decoration: underline;
+}
+
+li.list-element::before {
+  content: "\2192";
+  color: #38afe5;
+  position: absolute;
+  left: -15%;
+}
+
+h2.testimonial-title {
+  margin-bottom: 20px;
+}
+
+p.testimonial-text {
+  background-color: #fcfafa;
+  border: 1px solid #dfdcdc;
+  border-radius: 3px;
+  position: relative;
+  padding: 20px;
+}
+
+p.testimonial-text::before {
+  content: "\201C ";
+}
+
+p.testimonial-text::after {
+  content: " \201D";
+}
+
+.container-testimonial-text::after {
+  content: " ";
+  display: inline-block;
+  position: relative;
+  background-color: #fcfafa;
+  width: 30px;
+  height: 30px;
+  transform: rotate(45deg);
+  border-bottom: 1px solid #dfdcdc;
+  border-right: 1px solid #dfdcdc;
+  left: 100px;
+  top: -16px;
+}
+
+.comment {
+  margin-top: 20px;
+}
+
+span.comment-user-1 {
+  display: block;
+  font-size: 16px;
+  color: #263555;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+span.comment-user-2 {
+  display: block;
+  font-size: 13px;
+  color: #4e5050;
+  text-align: center;
+}

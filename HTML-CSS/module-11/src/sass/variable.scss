@@ -1,0 +1,36 @@
+// typography
+
+$serif: "Montserrat", Arial, Helvetica, sans-serif;
+$kaushan-script: "Kaushan Script", cursive;
+$robo: "Roboto";
+
+@mixin font($font-family, $font-size, $font-weight, $line-height) {
+  font-family: $font-family;
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $line-height;
+}
+
+// colors
+
+$white: #ffffff;
+$orange: #fbe287cf;
+$coral: #f38181cf;
+$dark: #333333;
+$grey: #999999;
+$aquamarine: #95e1d3;
+
+// reset links
+
+@mixin reset-links($display, $text-decoration) {
+  display: $display;
+  text-decoration: $text-decoration;
+}
+
+@mixin center($margin-r, $margin-l, $text-align) {
+  margin-right: $margin-r;
+  margin-left: $margin-l;
+  text-align: $text-align;
+}
+
+

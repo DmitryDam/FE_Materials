@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Pathway Gothic One", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  background-image: url(../img/bk.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper {
+  width: 406px;
+  margin: auto;
+  background-color: white;
+  padding-left: 37px;
+  padding-right: 37px;
+  padding-top: 55px;
+  padding-bottom: 37px;
+}
+
+.first {
+  margin-bottom: 44px;
+}
+
+.second {
+  border-bottom: 1px solid #4e505073;
+}
+
+img {
+  width: 406px;
+  height: 98px;
+  margin-bottom: 27px;
+}
+
+h2 {
+  color: #263555;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: normal;
+  margin-bottom: 25px;
+  font-family: "Pathway Gothic One";
+}
+
+p {
+  font-size: 12px;
+  color: #4e5050;
+  font-family: Arial;
+}
+
+.second {
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+}
+
+.third {
+  margin-bottom: 30px;
+}
+
+.title {
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: normal;
+  color: #263555;
+  margin-bottom: 15px;
+}
+
+li {
+  list-style: none;
+  font-size: 14px;
+  font-family: Arial;
+}
+
+.list li {
+  line-height: 2em;
+}
+
+a {
+  text-decoration: none;
+  color: #263555;
+  display: block;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.list-left {
+  display: inline-block;
+  width: 193px;
+  vertical-align: top;
+}
+
+.list-right {
+  display: inline-block;
+  width: 190px;
+}
+
+.second li {
+  margin-bottom: 20px;
+  width: 330px;
+}
+
+.second li:last-child {
+  margin-bottom: 0;
+}
+
+

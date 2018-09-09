@@ -1,0 +1,51 @@
+@media (min-width: 48rem) {
+  .wrapper-fond {
+    padding-bottom: 14.625rem;
+    padding-top: 2.875rem;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin-bottom: 7.8125rem;
+  }
+
+  .nav {
+    margin-bottom: 0;
+  }
+
+  .title {
+    font-size: 3.25rem;
+    max-width: 31.4375rem;
+    line-height: 3.5rem
+  }
+
+  .subtitle {
+    max-width: none;
+    font-size: 1.5rem;
+    line-height: 2.5625rem;
+  }
+
+
+  .list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 61.1979%;
+    margin: auto;
+    margin-bottom: 2.4375rem;
+  }
+
+  .iteam {
+    flex-basis: 42.35807%;
+  }
+
+  .iteam:nth-last-child(-n + 2) {
+    margin: 0;
+  }
+
+  .partners-title {
+    margin-bottom: 2rem;
+  }
+}

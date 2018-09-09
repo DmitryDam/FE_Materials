@@ -1,0 +1,56 @@
+/* FOOTER */
+
+.footer {
+  background-color: $white;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #e5e5e5;
+  padding-top: 8px;
+  padding-bottom: 11px;
+}
+
+.copyright {
+  &__text {
+    color: $dark;
+    @include font($serif, 14px, 400, normal);
+  }
+
+  &__letter,
+  &__word {
+    &--uppercase {
+      text-transform: uppercase;
+    }
+  }
+
+  &__word {
+    &--red {
+      color: $coral;
+    }
+  }
+}
+
+/* FORM */
+
+.form {
+  display: flex;
+
+  &__email {
+    width: 230px;
+    height: 40px;
+    border: 1px solid #e7e7e7;
+    background-color: $white;
+    padding-left: 13px;
+  }
+}
+
+::placeholder {
+  color: #cccccc;
+  font-style: italic;
+  @include font($robo, 15px, 400, 24px);
+}
+
+.button--color {
+  background-color: $aquamarine;
+  border: 3px solid $aquamarine;
+  width: 150px;
+}

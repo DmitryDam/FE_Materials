@@ -1,0 +1,14 @@
+.button {
+  width: 160px;
+  height: 40px;
+  border: 3px solid $white;
+  color: $white;
+  text-transform: uppercase;
+  @include reset-links(inline-block, none);
+  @include font($serif, 14px, 700, 37px);
+
+  &:hover {
+    border: 3px solid $coral;
+    color: $coral;
+  }
+}
